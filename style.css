@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.menu {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.menu a {
+  text-decoration: none;
+  color: black;
+  font-size: 30px;
+  padding: 0px 2px;
+  margin-top: 20px;
+  margin-bottom: -40px;
+}
+.menu a:hover {
+  background-color: brown;
+  font-size: 40px;
+  margin: 0px 20px;
+  transition: 5s;
+}
+
+.info {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 100px;
+}
+.info span {
+  background-color: #A9C2BE;
+  padding-left: 30px;
+}
+.info h1 {
+  margin-bottom: 30px;
+}
+
+.text h1 {
+  margin-left: 150px;
+}
+
+.images {
+  display: flex;
+  width: 100%;
+  gap: 10px;
+  margin-top: 10px;
+}
+.images img {
+  width: 100%;
+}
+
+.middle {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+}
+.middle .middle2 {
+  padding-left: 40px;
+  padding-top: 100px;
+  color: white;
+  background-color: #5B5B5B;
+  width: 900px;
+  height: 302px;
+}
+.middle .middle2 h2 {
+  background-color: #FF9619;
+  color: white;
+  padding: 5px 15px;
+  width: 270px;
+}
+.middle .middle2 h4 {
+  position: relative;
+  font-size: 20px;
+  left: 630px;
+  top: -350px;
+  background-color: #FF9619;
+  width: 80px;
+  padding: 20px 40px;
+  padding-bottom: 60px;
+}
+
+.logo {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 50px;
+}
+
+.too h1 {
+  text-align: center;
+}
+
+.kreslo {
+  display: flex;
+  justify-content: space-evenly;
+}
+.kreslo h2 {
+  background-color: #FF9619;
+  color: white;
+  padding: 5px 15px;
+  width: 140px;
+  margin-left: 470px;
+}
+
+.show h1 {
+  color: #FF9619;
+  margin-left: 150px;
+}/*# sourceMappingURL=style.css.map */
